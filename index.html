@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsiveness.css">
+    <title>Challenge Decodificador</title>
+</head>
+<body>
+    <header>
+            <img class="logo" src="./assets/texto.png" alt="Imagem Decodificador de Textos">
+    </header>
+    
+    <main>
+        <section class="text__and__buttons">
+            <div>
+                <textarea id="text__area" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+            </div>
+            <div class="information__and__buttons">
+                <div class="information">
+                    <img src="./assets/warning.png" alt="Ícone de Atenção">
+                    <h6>Somente letras minúsculas e sem acento.</h6>
+                </div>
+    
+                <div class="buttons">
+                    <button onclick="encrypt()" class="buttons__encrypt">Criptografar</button>
+                    <button onclick="decrypt()" class="buttons__decrypt">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="box__result">
+            <div class="message">
+                <div id="message__content">
+                    <img src="./assets/detetive.png" alt="Imagem de uma detetive">
+                    <div class="message__text">
+                        <h1>Nenhuma mensagem</h1>
+                        <h3>Digite sua mensagem para criptografar ou descriptografar.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="https://linkedin.com/in/gabidasilva-tech-frontend/"> <img src="assets/linkedin.png"> </a>
+        <a href="https://github.com/GabidaSilva"> <img src="assets/github.png"> </a>
+        <p>&copy; Gabi da Silva 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
