@@ -57,4 +57,4 @@ O codificador de texto é projetado para trabalhar exclusivamente com letras min
 
 * Nessa primeira experiência confesso que o JavaScript foi a minha maior dificuldade.
 
-* Trabalhar com o CSS e o HTML é bem agradável, excetuando a parte de responsividade.
+* Trabalhar com o CSS e o HTML é bem agradável, excetuando a parte de responsividade.# decodificador_texto
