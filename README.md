@@ -59,3 +59,4 @@ O codificador de texto é projetado para trabalhar exclusivamente com letras min
 
 * Trabalhar com o CSS e o HTML é bem agradável, excetuando a parte de responsividade.# decodificador_texto
 # decodificador_texto
+# decodificador_texto
